@@ -2,10 +2,44 @@ body {
     background-color: #000;
     color: #fafafa;
     font-family: 'Roboto Slab', sans-serif;
+    background: url('../images/background.jpg') center center / cover no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    position: relative; 
 }
 
 .nav-link {
     color: #fafafa !important;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+.introduction {
+    font-family: "Londrina Sketch", sans-serif;
+    text-align: center; 
+}
+
+.introduction p {
+    font-size: 1.75rem;
+    letter-spacing: 0.05em;
+}
+
+#info {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 1.87rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 20rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #info {
+        margin: 10rem auto;
+        width: 90%;
+    }
+
+    body {
+        height: 50%;
+    }
 }
