@@ -1,4 +1,11 @@
 body {
     background-color: #000;
     color: #fafafa;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.nav-link {
+    color: #fafafa !important;
+    text-transform: uppercase;
+    font-weight: 600;
 }
