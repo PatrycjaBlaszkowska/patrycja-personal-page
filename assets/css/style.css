@@ -5,7 +5,6 @@ body {
     background: url('../images/background.jpg') center center / cover no-repeat;
     min-height: 100vh;
     margin: 0;
-    position: relative; 
 }
 
 .nav-link {
@@ -24,22 +23,44 @@ body {
     letter-spacing: 0.05em;
 }
 
-#info {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    padding: 1.87rem;
-    background-color: rgba(0, 0, 0, 0.8);
-    margin-top: 20rem;
+#content-box {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 2rem; 
+    border-radius: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-    #info {
-        margin: 10rem auto;
-        width: 90%;
-    }
-
-    body {
-        height: 50%;
-    }
+.links {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.5rem;
 }
+
+.links a { 
+    color: #fafafa;
+    text-decoration: none; 
+}
+
+/* Maintain the color on hover */
+.links a:hover {
+    color: #fafafa; 
+    text-decoration: none; 
+}
+
+.hvr-grow-rotate {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+    -webkit-transform: scale(1.1) rotate(4deg);
+    transform: scale(1.1) rotate(4deg);
+    text-decoration: none; 
+
+}
+
