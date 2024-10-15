@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
         <!--Navbar section-->
@@ -30,8 +30,24 @@
                 </ul>
             </div>
         </nav>        
-        {% block content %}
-        {% endblock %}
+        <div class="container" id="info">
+            <div class="row">
+                <div class="col-12 introduction">
+                    <h1>Patrycja Blaszkowska</h1>
+                    <p>Full-stack developer</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <a class="btn" href="">
+                        <i></i>
+                    </a>
+                    <a class="btn" href="">
+                        <i></i>
+                    </a>
+                </div>
+            </div>
+        </div>
         <!--Font awesome script--> 
         <script src="https://kit.fontawesome.com/c3fcb94a82.js" crossorigin="anonymous"></script> 
         <!--Bootstrap js scripts-->
