@@ -11,6 +11,7 @@ body {
     color: #fafafa !important;
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 1.3rem;
 }
 
 .introduction {
@@ -20,7 +21,7 @@ body {
 
 .introduction p {
     font-size: 1.75rem;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.09em;
 }
 
 #content-box {
@@ -39,7 +40,6 @@ body {
     text-decoration: none; 
 }
 
-/* Maintain the color on hover */
 .links a:hover {
     color: #fafafa; 
     text-decoration: none; 
