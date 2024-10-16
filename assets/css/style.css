@@ -64,3 +64,50 @@ body {
 
 }
 
+/* Profile Info */
+.personal-info {
+    background-color: #800000;
+    position: fixed; /* Fixed for larger screens */
+    left: 0;
+    top: 56px; /* Assuming there's a navbar */
+    width: 25vw; /* 25% of the screen width */
+    height: calc(100vh - 56px); /* Full height minus navbar */
+    z-index: 1; /* Ensure it's on top */
+}
+
+/* Profile Image Styling */
+#profile-picture {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid #fafafa;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+/* Content Column */
+.content-col {
+    padding-left: 30px;
+}
+
+/* Mobile Adjustments */
+@media only screen and (max-width: 767px) {
+    .personal-info {
+        position: static;
+        width: 100%;
+        height: auto; 
+        margin-bottom: 20px;
+    }
+
+    .content-col {
+        padding-left: 0; 
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) { 
+    #profile-picture {
+        height: 150px;
+        width: 150px;
+    }
+}
