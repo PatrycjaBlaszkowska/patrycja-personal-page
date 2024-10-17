@@ -70,7 +70,6 @@ body {
     position: fixed; 
     left: 0;
     top: 56px; 
-    width: 25vw; 
     height: calc(100vh - 56px); 
     z-index: 1; 
     padding: 20px;
@@ -140,6 +139,10 @@ body {
 
     #profile-picture {
         margin-top: 0;
+    }
+    
+    .overlay {
+        top: 200px;
     }
 }
 
