@@ -144,7 +144,6 @@ hr {
     z-index: 2;
 }
 
-
 /* Mobile Adjustments */
 @media only screen and (max-width: 767px) {
     .personal-info {
@@ -165,6 +164,15 @@ hr {
     
     .overlay {
         top: 200px;
+    }
+
+    .education, .work-experiance {
+        text-align: center;
+    }
+
+    hr {
+        width: 90%;
+        margin: 0 auto;
     }
 }
 
