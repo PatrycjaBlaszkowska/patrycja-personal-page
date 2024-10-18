@@ -14,7 +14,7 @@ hr {
 }
 
 nav {
-    z-index: 2;
+    z-index: 10;
 }
 
 .nav-link {
@@ -79,7 +79,6 @@ nav {
     background-color: #800000;
     position: fixed;
     left: 0;
-    top: 56px; 
     height: calc(100vh - 56px); 
     z-index: 1; 
     padding: 20px;
@@ -129,9 +128,8 @@ nav {
     padding-left: 30px;
 }
 
-/* Make sure container content appears on top of the overlay */
+
 .container {
-    position: relative; 
     z-index: 2;
 }
 
@@ -144,6 +142,11 @@ nav {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.9);
     z-index: 0; 
+}
+
+.card-body {
+    height: 250px;
+    background-color: rgba(128, 0, 0, 0.7);
 }
 
 /* Mobile Adjustments */
@@ -174,7 +177,6 @@ nav {
         margin: 0 auto;
     }
 }
-
 
 @media only screen and (min-width: 768px) and (max-width: 1280px) { 
     #profile-picture {
