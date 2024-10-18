@@ -7,6 +7,12 @@ body {
     margin: 0;
 }
 
+hr {
+    background-color: #fafafa;
+    width: 70%;
+    margin-left: 0; 
+}
+
 .nav-link {
     color: #fafafa !important;
     text-transform: uppercase;
