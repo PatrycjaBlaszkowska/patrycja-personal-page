@@ -164,8 +164,9 @@ nav {
         margin-top: 0;
     }
     
-    .education, .work-experiance {
+    .education, .work-experiance, .portfolio {
         text-align: center;
+        margin: 0 1rem 0 1rem;
     }
 
     hr {
